@@ -72,7 +72,9 @@
 #' resolution
 #'
 #' A sparse \code{dgCMatrix} containing the HiC contacts
-#' for Rao's sample HIC077 (SRR1658706) at 1 Mbp resolution
+#' for Rao's sample HIC077 (SRR1658706) at 1 Mbp
+#' resolution. The restriction enzyme used was MboI (same
+#' motif as DpnII)
 #'
 #' @format A 3044 x 3044 sparse \code{dgCMatrix} with the
 #' bin ids as dimnames
