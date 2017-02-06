@@ -15,7 +15,9 @@ mat_kbm7
 }
 \description{
 A sparse \code{dgCMatrix} containing the HiC contacts
-for Rao's sample HIC077 (SRR1658706) at 1 Mbp resolution
+for Rao's sample HIC077 (SRR1658706) at 1 Mbp
+resolution. The restriction enzyme used was MboI (same
+motif as DpnII). It is a sample of the cell-line KBM7.
 }
 \keyword{datasets}
 

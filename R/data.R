@@ -74,9 +74,22 @@
 #' A sparse \code{dgCMatrix} containing the HiC contacts
 #' for Rao's sample HIC077 (SRR1658706) at 1 Mbp
 #' resolution. The restriction enzyme used was MboI (same
-#' motif as DpnII)
+#' motif as DpnII). It is a sample of the cell-line KBM7.
 #'
 #' @format A 3044 x 3044 sparse \code{dgCMatrix} with the
 #' bin ids as dimnames
 #' @source \url{http://dx.doi.org/10.1016/j.cell.2014.11.021}
 "mat_kbm7"
+
+#' HiC contact matrix for Rao's HIC069 sample at 1 Mbp
+#' resolution
+#'
+#' A sparse \code{dgCMatrix} containing the HiC contacts
+#' for Rao's sample HIC069 (SRR1658693) at 1 Mbp
+#' resolution. The restriction enzyme used was MboI (same
+#' motif as DpnII). It is a sample of the cell-line K562.
+#'
+#' @format A 3044 x 3044 sparse \code{dgCMatrix} with the
+#' bin ids as dimnames
+#' @source \url{http://dx.doi.org/10.1016/j.cell.2014.11.021}
+"mat_k562"
