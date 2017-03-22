@@ -26,6 +26,20 @@
 #' }
 "bias_mm10"
 
+#' Genomic biases for dm3 (flybase)
+#'
+#' A \code{data.frame} containing the mappability and CG
+#' proportion of the mouse genome (dm3, flybase) in 1 Kbp bins
+#'
+#' @format A data frame with 130434 rows and 4 variables:
+#' \describe{
+#'   \item{chr}{chromosome}
+#'   \item{position}{start postion of the genomic bin}
+#'   \item{map}{mappability as computed by gem}
+#'   \item{cg}{cg content as computed by bedtools}
+#' }
+"bias_dm3"
+
 #' Number of restriction enzyme sites for hg38
 #'
 #' A \code{data.frame} containing the number of
@@ -50,7 +64,7 @@
 #' Number of restriction enzyme sites for mm10
 #'
 #' A \code{data.frame} containing the number of
-#' restriction enzyme sites (RES) of the human genome
+#' restriction enzyme sites (RES) of the mouse genome
 #' (mm10) in 1 Kbp bins. There is one column per
 #' restriction enzyme
 #'
@@ -67,6 +81,27 @@
 #' @details Please note that MboI presents the same motif
 #' as DpnII, so use that column corerspondingly
 "enzymes_mm10"
+
+#' Number of restriction enzyme sites for dm3 (flybase)
+#'
+#' A \code{data.frame} containing the number of
+#' restriction enzyme sites (RES) of the fly genome
+#' (dm3, flybase) in 1 Kbp bins. There is one column per
+#' restriction enzyme
+#'
+#' @format A data frame with 130434 rows and 7 variables:
+#' \describe{
+#'   \item{chr}{chromosome}
+#'   \item{position}{start postion of the genomic bin}
+#'   \item{BspHI}{number of RES for BspHI}
+#'   \item{DpnII}{number of RES for DpnII}
+#'   \item{HindIII}{number of RES for HindIII}
+#'   \item{MspI}{number of RES for MspI}
+#'   \item{NcoI}{number of RES for NcoI}
+#' }
+#' @details Please note that MboI presents the same motif
+#' as DpnII, so use that column corerspondingly
+"enzymes_dm3"
 
 #' HiC contact matrix for Rao's HIC077 sample at 1 Mbp
 #' resolution

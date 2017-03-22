@@ -28,4 +28,3 @@ Please note that MboI presents the same motif
 as DpnII, so use that column corerspondingly
 }
 \keyword{datasets}
-

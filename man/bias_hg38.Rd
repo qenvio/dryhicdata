@@ -19,4 +19,3 @@ A \code{data.frame} containing the mappability and CG proportion
 of the human genome (hg38) in 1 Kbp bins
 }
 \keyword{datasets}
-

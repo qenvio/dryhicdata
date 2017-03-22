@@ -19,7 +19,7 @@ enzymes_mm10
 }
 \description{
 A \code{data.frame} containing the number of
-restriction enzyme sites (RES) of the human genome
+restriction enzyme sites (RES) of the mouse genome
 (mm10) in 1 Kbp bins. There is one column per
 restriction enzyme
 }
@@ -28,4 +28,3 @@ Please note that MboI presents the same motif
 as DpnII, so use that column corerspondingly
 }
 \keyword{datasets}
-

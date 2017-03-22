@@ -20,4 +20,3 @@ resolution. The restriction enzyme used was MboI (same
 motif as DpnII). It is a sample of the cell-line K562.
 }
 \keyword{datasets}
-
