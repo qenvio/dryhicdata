@@ -98,6 +98,7 @@
 #'   \item{HindIII}{number of RES for HindIII}
 #'   \item{MspI}{number of RES for MspI}
 #'   \item{NcoI}{number of RES for NcoI}
+#'   \item{NlaIII}{number of RES for NlaIII}
 #' }
 #' @details Please note that MboI presents the same motif
 #' as DpnII, so use that column corerspondingly

@@ -13,6 +13,7 @@
   \item{HindIII}{number of RES for HindIII}
   \item{MspI}{number of RES for MspI}
   \item{NcoI}{number of RES for NcoI}
+  \item{NlaIII}{number of RES for NlaIII}
 }}
 \usage{
 enzymes_dm3
