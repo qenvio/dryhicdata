@@ -4,7 +4,7 @@ Version: 0.0.0.9000
 Authors@R: person("Enrique", "Vidal", email = "enrique.vidal@crg.eu", role = c("aut", "cre"))
 Description: Includes \code{data.frame}s with genomic biase information for hg38 and mm10 and a example matrix of a KBM7 sample.
 Depends:
-    R (>= 3.3.0)
+    R (>= 3.2.0)
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
