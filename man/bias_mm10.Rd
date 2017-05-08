@@ -4,7 +4,7 @@
 \name{bias_mm10}
 \alias{bias_mm10}
 \title{Genomic biases for mm10}
-\format{A data frame with 2617314 rows and 4 variables:
+\format{A data frame with 27259 rows and 4 variables:
 \describe{
   \item{chr}{chromosome}
   \item{position}{start postion of the genomic bin}
@@ -16,6 +16,6 @@ bias_mm10
 }
 \description{
 A \code{data.frame} containing the mappability and CG
-proportion of the mouse genome (mm10) in 1 Kbp bins
+proportion of the mouse genome (mm10) in 100 Kbp bins
 }
 \keyword{datasets}

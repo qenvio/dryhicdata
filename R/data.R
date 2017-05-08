@@ -1,9 +1,9 @@
 #' Genomic biases for hg38
 #'
 #' A \code{data.frame} containing the mappability and CG proportion
-#' of the human genome (hg38) in 1 Kbp bins
+#' of the human genome (hg38) in 100 Kbp bins
 #'
-#' @format A data frame with 3031043 rows and 4 variables:
+#' @format A data frame with 30321 rows and 4 variables:
 #' \describe{
 #'   \item{chr}{chromosome}
 #'   \item{position}{start postion of the genomic bin}
@@ -15,9 +15,9 @@
 #' Genomic biases for mm10
 #'
 #' A \code{data.frame} containing the mappability and CG
-#' proportion of the mouse genome (mm10) in 1 Kbp bins
+#' proportion of the mouse genome (mm10) in 100 Kbp bins
 #'
-#' @format A data frame with 2617314 rows and 4 variables:
+#' @format A data frame with 27259 rows and 4 variables:
 #' \describe{
 #'   \item{chr}{chromosome}
 #'   \item{position}{start postion of the genomic bin}
@@ -44,10 +44,10 @@
 #'
 #' A \code{data.frame} containing the number of
 #' restriction enzyme sites (RES) of the human genome
-#' (hg38) in 1 Kbp bins. There is one column per
+#' (hg38) in 100 Kbp bins. There is one column per
 #' restriction enzyme
 #'
-#' @format A data frame with 3031043 rows and 7 variables:
+#' @format A data frame with 30321 rows and 7 variables:
 #' \describe{
 #'   \item{chr}{chromosome}
 #'   \item{position}{start postion of the genomic bin}
@@ -65,10 +65,10 @@
 #'
 #' A \code{data.frame} containing the number of
 #' restriction enzyme sites (RES) of the mouse genome
-#' (mm10) in 1 Kbp bins. There is one column per
+#' (mm10) in 100 Kbp bins. There is one column per
 #' restriction enzyme
 #'
-#' @format A data frame with 2617314 rows and 7 variables:
+#' @format A data frame with 27259 rows and 7 variables:
 #' \describe{
 #'   \item{chr}{chromosome}
 #'   \item{position}{start postion of the genomic bin}

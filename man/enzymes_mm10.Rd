@@ -4,7 +4,7 @@
 \name{enzymes_mm10}
 \alias{enzymes_mm10}
 \title{Number of restriction enzyme sites for mm10}
-\format{A data frame with 2617314 rows and 7 variables:
+\format{A data frame with 27259 rows and 7 variables:
 \describe{
   \item{chr}{chromosome}
   \item{position}{start postion of the genomic bin}
@@ -20,7 +20,7 @@ enzymes_mm10
 \description{
 A \code{data.frame} containing the number of
 restriction enzyme sites (RES) of the mouse genome
-(mm10) in 1 Kbp bins. There is one column per
+(mm10) in 100 Kbp bins. There is one column per
 restriction enzyme
 }
 \details{
