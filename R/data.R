@@ -106,6 +106,7 @@
 
 #' HiC contact matrix of a T47D sample at 100 Kbp
 #' resolution
+#' @import Matrix
 #'
 #' A sparse \code{dgCMatrix} containing the HiC contacts
 #' of a T47D sample (SRR1054341) aligned against hg38 at 100 Kbp
@@ -120,6 +121,7 @@
 
 #' HiC contact matrix for Rao's HIC077 sample at 1 Mbp
 #' resolution
+#' @import Matrix
 #'
 #' A sparse \code{dgCMatrix} containing the HiC contacts
 #' for Rao's sample HIC077 (SRR1658706) at 1 Mbp
@@ -133,6 +135,7 @@
 
 #' HiC contact matrix for Rao's HIC069 sample at 1 Mbp
 #' resolution
+#' @import Matrix
 #'
 #' A sparse \code{dgCMatrix} containing the HiC contacts
 #' for Rao's sample HIC069 (SRR1658693) at 1 Mbp
