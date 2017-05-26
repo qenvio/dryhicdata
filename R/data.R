@@ -104,6 +104,20 @@
 #' as DpnII, so use that column corerspondingly
 "enzymes_dm3"
 
+#' HiC contact matrix of a T47D sample at 100 Kbp
+#' resolution
+#'
+#' A sparse \code{dgCMatrix} containing the HiC contacts
+#' of a T47D sample (SRR1054341) aligned against hg38 at 100 Kbp
+#' resolution. The restriction enzyme used was HindIII. More info at
+#' \url{hhttps://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM1294038}
+#' 
+#'
+#' @format A 30896 x 330896 sparse \code{dgCMatrix} with the
+#' bin ids as dimnames
+#' @source \url{https://doi.org/10.1101/gad.241422.114}
+"mat"
+
 #' HiC contact matrix for Rao's HIC077 sample at 1 Mbp
 #' resolution
 #'
